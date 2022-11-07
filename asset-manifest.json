@@ -1,15 +1,15 @@
 {
-  "main.css": "/yonify/static/css/main.1be713c8.chunk.css",
-  "main.js": "/yonify/static/js/main.e5f2d6f1.chunk.js",
-  "main.js.map": "/yonify/static/js/main.e5f2d6f1.chunk.js.map",
-  "static/js/1.bfa36157.chunk.js": "/yonify/static/js/1.bfa36157.chunk.js",
-  "static/js/1.bfa36157.chunk.js.map": "/yonify/static/js/1.bfa36157.chunk.js.map",
-  "static/js/2.7587d2c9.chunk.js": "/yonify/static/js/2.7587d2c9.chunk.js",
-  "static/js/2.7587d2c9.chunk.js.map": "/yonify/static/js/2.7587d2c9.chunk.js.map",
-  "runtime~main.js": "/yonify/static/js/runtime~main.9da8d652.js",
-  "runtime~main.js.map": "/yonify/static/js/runtime~main.9da8d652.js.map",
-  "static/css/main.1be713c8.chunk.css.map": "/yonify/static/css/main.1be713c8.chunk.css.map",
-  "index.html": "/yonify/index.html",
-  "precache-manifest.ad9e9ce0b2c4c969709aa77978061593.js": "/yonify/precache-manifest.ad9e9ce0b2c4c969709aa77978061593.js",
-  "service-worker.js": "/yonify/service-worker.js"
+  "files": {
+    "main.css": "/yonify/static/css/main.83cf10ff.css",
+    "main.js": "/yonify/static/js/main.d4f5fea2.js",
+    "static/js/787.cddcc2ce.chunk.js": "/yonify/static/js/787.cddcc2ce.chunk.js",
+    "index.html": "/yonify/index.html",
+    "main.83cf10ff.css.map": "/yonify/static/css/main.83cf10ff.css.map",
+    "main.d4f5fea2.js.map": "/yonify/static/js/main.d4f5fea2.js.map",
+    "787.cddcc2ce.chunk.js.map": "/yonify/static/js/787.cddcc2ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83cf10ff.css",
+    "static/js/main.d4f5fea2.js"
+  ]
 }
