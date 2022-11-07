@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+import { AppHeader } from './cmps/AppHeader';
 import './scss/global.scss';
 
 function App() {
@@ -7,10 +8,7 @@ function App() {
 
 
     <div className="App">
-      <h1>
-        gsdfgf
-        </h1>
-  
+      <AppHeader></AppHeader>
     </div>
     </section>
   );

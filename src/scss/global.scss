@@ -1,13 +1,18 @@
 
 //SETUP
-@import '/setup/varibales';
-@import '/setup/functions';
-@import '/setup/mixins';
+@import '/src/scss/setup/variables';
+@import '/src/scss/setup/functions';
+@import '/src/scss/setup/mixins';
+
 
 // Basics
-@import 'basics/base';
-@import 'basics/helpers';
-@import 'basics/layout';
-@import 'basics/typography';
-@import 'basics/modals';
-@import 'basics/animations';
+@import '/src/scss/basics/base';
+@import '/src/scss/basics/helpers';
+@import '/src/scss/basics/layout';
+@import '/src/scss/basics/typography';
+@import '/src/scss/basics/modals';
+@import '/src/scss/basics/animations';
+
+
+//CMPS
+@import '/src/scss/cmps/_app-header';
