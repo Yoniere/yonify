@@ -30,13 +30,13 @@ export function AppHeader() {
             <section className="btm-nav-bar">
             <div>
                 <div className="create-div">
-            <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-ytk21e-0 eqtHWV"><path d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path></svg>
+            <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" className="Svg-ytk21e-0 eqtHWV"><path d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path></svg>
                 </div>
             <span>Create Playlist</span>
             </div>
                 <div>
                     <div className="liked-div">
-                <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-ytk21e-0 eqtHWV"><path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path></svg>
+                <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" className="Svg-ytk21e-0 eqtHWV"><path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path></svg>
 
                     </div>
                 <span>Liked Songs</span>

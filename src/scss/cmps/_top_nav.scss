@@ -1,0 +1,43 @@
+.top-nav {
+    background-color: #101010;
+    color: $navgreyclr;
+    height: rem(64px);
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    .back-arrow,.fwd-arrow,.signup-btn,.login-btn {
+        fill: $navgreyclr;
+        color: $navgreyclr;
+        background-color: unset;
+        border: unset;
+    }
+    .arrows-btns {
+        height: rem(32px);
+        width: rem(80px);
+        align-items: center;
+        justify-content: space-between;
+        .back-arrow,.fwd-arrow {
+            height: rem(32px);
+            padding-left: rem(5px);
+            padding-right: rem(5px);
+            & svg {
+                width: rem(22px);
+                height: rem(22px);
+            }
+        }
+    }
+    .authorization-btns {
+        align-items: center;
+        .signup-btn {
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 8px 32px 8px 8px;
+            height: rem(48px);
+            width: rem(95.92px);
+            font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif;
+        }
+
+    }
+}
