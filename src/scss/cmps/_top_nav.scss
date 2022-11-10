@@ -1,12 +1,12 @@
 .top-nav {
     background-color: #101010;
     color: $navgreyclr;
-    height: rem(64px);
+    // height: rem(64px);
     padding: 16px 32px;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
+    // position: sticky;
+    // top: 0;
     .back-arrow,.fwd-arrow,.signup-btn,.login-btn {
         fill: $navgreyclr;
         color: $navgreyclr;

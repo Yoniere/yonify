@@ -3,7 +3,7 @@ import { LogoCmps } from "./LogoCmps";
 
 export function AppHeader() {
   return (
-    <header className="appHeader">
+    <header className="appHeader grid-item-1">
         <div className="logo-cntr">
         <div className="logo flex">
             <LogoCmps></LogoCmps>
