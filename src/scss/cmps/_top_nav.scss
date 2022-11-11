@@ -1,12 +1,11 @@
 .top-nav {
     background-color: #101010;
     color: $navgreyclr;
-    // height: rem(64px);
     padding: 16px 32px;
     align-items: center;
     justify-content: space-between;
-    // position: sticky;
-    // top: 0;
+    position: sticky;
+    top: 0;
     .back-arrow,.fwd-arrow,.signup-btn,.login-btn {
         fill: $navgreyclr;
         color: $navgreyclr;
@@ -33,10 +32,21 @@
         .signup-btn {
             font-weight: 700;
             font-size: 1rem;
+            color:#6a6a6a;
             padding: 8px 32px 8px 8px;
             height: rem(48px);
-            width: rem(95.92px);
+            width: rem(99px);
             font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,sans-serif;
+        }
+        .login-btn {
+            font-weight: 700;
+            font-size: 1rem;
+            border: 0px;
+    border-radius: 500px;
+    background-color: #ffffff;
+    color:#000;
+    width: rem(109.375px);
+    height: rem(48px);
         }
 
     }

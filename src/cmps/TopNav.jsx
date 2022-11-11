@@ -14,7 +14,7 @@ export const TopNav=()=> {
         </div>
 
         <div className='authorization-btns flex'>
-            <button className='signup-btn'>sign up</button>
+            <button className='signup-btn'>Sign up</button>
             <button className='login-btn'>Log in</button>
         </div>
     </section>
