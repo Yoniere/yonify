@@ -1,18 +1,28 @@
 import { AppHeader } from './cmps/AppHeader';
 import { TopNav } from './cmps/TopNav';
-import { Home } from './pages/Home';
-import { Search } from './pages/Search'
-import { YourLibrary } from './pages/YourLibrary'
+import { createBrowserRouter,RouterProvider,Route,createRoutesFromElements } from 'react-router-dom';
 import './scss/global.scss';
+import { Home } from './pages/Home';
+import { Search } from './pages/Search';
+import { YourLibrary } from './pages/YourLibrary';
+
+const router = createBrowserRouter(
+    createRoutesFromElements
+      (
+      <Route>
+      <Route path="/yonify" element={<Home/>}></Route>
+       <Route path='/search' element={<Search/>}></Route>
+      <Route path='/yourlibrary' element={<YourLibrary/>}></Route>
+      </Route>
+      )
+  );
 
 function App() {
   return (
     <section className="app">
-      <AppHeader className='grid-item'></AppHeader>
-        <TopNav className='grid-item'></TopNav>
-        <Home className='grid-item'></Home>
-        <Search>fff</Search>
-        <YourLibrary></YourLibrary>
+      <AppHeader></AppHeader>
+        <TopNav></TopNav>
+      <RouterProvider router={router}></RouterProvider>
     </section>
   );
 }
