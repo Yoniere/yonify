@@ -1,13 +1,13 @@
+import { YonifyPlaylists } from "../cmps/YonifyPlaylists"
 
 
 export const Home=()=> {
   return (
     <section className='home grid-item-3'>
 
-    <div>sfgsdfgsdfgdfg</div>
-    <div>asdfasdf
+      <YonifyPlaylists></YonifyPlaylists>
 
-    </div>
+    
     </section>
     // <section className='home'>
   
