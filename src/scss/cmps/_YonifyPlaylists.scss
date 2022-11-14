@@ -1,9 +1,11 @@
 .yonify-playlists {
-
-
+    margin-bottom: rem(16px);
+    display: flex;
+    flex-direction: column;
     .upper-btns {
         justify-content: space-between;
         margin-bottom: rem(16px);
+        height: rem(31.2px);
         .left-btn {
             color:$mainnavwhiteclr;
             font-weight: 700;
@@ -20,10 +22,14 @@
             margin-left: rem(8px);
             color:$navgreyclr;
             font-weight: 700;
+            align-self: center;
             & :hover {
                 text-decoration: underline;
             }
         }
+    }
+    .songs {
+        display: grid;
     }
 
 }

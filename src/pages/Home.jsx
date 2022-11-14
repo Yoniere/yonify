@@ -1,11 +1,26 @@
-import { YonifyPlaylists } from "../cmps/YonifyPlaylists"
+import { useEffect, useState,useSelector } from "react"
+import { YonifyPlaylistsList } from "../cmps/YonifyPlaylistsList"
+import { songsService } from "../services/songsService";
 
 
 export const Home=()=> {
+  const [songs,setSongs] = useState(null)
+  useEffect( ()=>{
+
+    let prmSong= songsService.query('abby')
+    prmSong.then(res=>setSongs(res))
+
+  },[]);
+
+  const hello=() => {
+    console.log(songs)
+  }
+  // let { songs } = useSelector(state =>state.songs)
+  if (!songs) return <div>Loading...</div>
   return (
     <section className='home grid-item-3'>
-
-      <YonifyPlaylists></YonifyPlaylists>
+      {hello()}
+      <YonifyPlaylistsList songs={songs.items}></YonifyPlaylistsList>
 
     
     </section>
