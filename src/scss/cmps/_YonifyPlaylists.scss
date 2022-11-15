@@ -30,6 +30,11 @@
     }
     .songs {
         display: grid;
+        grid-gap:rem(24px);
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: auto;
+        // grid-auto-flow: row;
+        
     }
 
 }

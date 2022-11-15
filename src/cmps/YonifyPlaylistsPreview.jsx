@@ -6,10 +6,12 @@ export function YonifyPlaylistsPreview({song}) {
   }
   return (
     <section className='YonifyPlaylistsPreview grid-item'>
-      <img src={song.snippet.thumbnails.default.url} alt="" />
+      <img className='song-img' src={song.snippet.thumbnails.default.url} alt="" />
       {hello()}
-      <h1>{song.snippet.channelTitle}</h1>
-      <p>{song.snippet.description}</p>
+      <div className='below-img'>
+        <h1>{song.snippet.channelTitle}</h1>
+        <p>{song.snippet.description}</p>
+      </div>
       
       </section>
   )

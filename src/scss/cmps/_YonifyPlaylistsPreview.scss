@@ -1,3 +1,21 @@
-.YonifyPlaylistsPreview{
+.YonifyPlaylistsPreview {
     background-color:#181818 ;
+    padding: rem(16px);
+    .song-img {
+        margin-bottom: rem(16px);
+    }
+    .below-img {
+        min-height: rem(62px);
+        & h1 {
+            color: #fff;
+            font-weight: 700;
+            font-size: rem(16px);
+            padding-bottom: rem(4px);
+        }
+        & p {
+            font-size: rem(14px);
+            font-weight: 400;
+            color:#a7a7a7 ;
+        }
+    }
 }
