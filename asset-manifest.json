@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yonify/static/css/main.786e5a92.css",
-    "main.js": "/yonify/static/js/main.333b20a0.js",
+    "main.js": "/yonify/static/js/main.43b05186.js",
     "static/js/787.cddcc2ce.chunk.js": "/yonify/static/js/787.cddcc2ce.chunk.js",
     "index.html": "/yonify/index.html",
     "main.786e5a92.css.map": "/yonify/static/css/main.786e5a92.css.map",
-    "main.333b20a0.js.map": "/yonify/static/js/main.333b20a0.js.map",
+    "main.43b05186.js.map": "/yonify/static/js/main.43b05186.js.map",
     "787.cddcc2ce.chunk.js.map": "/yonify/static/js/787.cddcc2ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.786e5a92.css",
-    "static/js/main.333b20a0.js"
+    "static/js/main.43b05186.js"
   ]
 }
