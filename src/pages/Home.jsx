@@ -7,8 +7,9 @@ export const Home=()=> {
   const [songs,setSongs] = useState(null)
   useEffect( ()=>{
 
-    let prmSong= songsService.query('abby')
+    let prmSong= songsService.query()
     prmSong.then(res=>setSongs(res))
+    console.log(prmSong)
 
   },[]);
 

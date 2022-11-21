@@ -13,6 +13,7 @@ const router = createBrowserRouter(
       <Route path="/yonify" element={<Home/>}></Route>
        <Route path='/search' element={<Search/>}></Route>
       <Route path='/yourlibrary' element={<YourLibrary/>}></Route>
+      <Route path='/yourlibrary' element={<YourLibrary/>}></Route>
       </Route>
       )
   );
